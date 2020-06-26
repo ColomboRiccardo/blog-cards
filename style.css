@@ -27,6 +27,8 @@ body {
 	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 	width: 300px;
+	transition-timing-function: ease;
+	transition: 0.8s;
 }
 .card-header img {
 	width: 100%;
@@ -92,4 +94,8 @@ body {
 		grid-template-columns: 1fr;
 		justify-items: center;
 	}
+}
+
+.card:hover {
+	transform: translateY(-20px);
 }
